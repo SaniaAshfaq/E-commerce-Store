@@ -1,0 +1,164 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.Cimage{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+/* .top, .pricediv, .mycart{
+    width: 80%;
+    border: 2px solid black;
+
+
+} */
+
+.wholeData{
+    width: 80%;
+   
+   
+}
+.top{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    background-color: #846542;
+    height: 100px;
+    border-radius: 20px;
+}
+.top h1{
+    
+    font-size: 4rem;
+    
+    font-weight: bolder;
+    /* background-color: #846542; */
+   width: 100%;
+   color: white;
+   margin-left: 10%;
+   
+}
+
+.newdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    
+}
+.Ctitle{
+    width: 20%;
+    font-size: 18px;
+}
+.Sprice{
+    font-size: 20px;
+}
+ .quantityDiv{
+    display: flex;
+    height: 20%;
+    
+    align-items: center;
+}
+.plus,.minus{
+    width: 35px;
+    height: 30px;
+    margin: 10px;
+    background-color: #846542;
+    font-size: 20px;
+    color: white;
+
+} 
+.quantity{
+    font-size: 25px;
+}
+.removeItem{
+    height: 30px;
+    width: 40px;
+    background-color: red;
+    color: white;
+
+}
+
+.pricediv{
+    /* width: 100%; */
+    height: 50px;
+    background-color: #846542;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.paybtn{
+    width: 200px;
+    height: 60px;
+    color: #846542;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px soild #846542;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+@media(min-width: 350px) and (max-width: 500px){
+    .wholeData{
+        width: 100%;
+       
+       
+    }
+    .newdiv{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .Cimage{
+        width: 100px;
+        height: 100px;
+        
+    }
+    .plus,.minus{
+        width: 20px;
+        height: 20px;
+       text-align: center;
+       font-size: 18px;
+    
+    } 
+    .Ctitle{
+       display: none;
+    }
+    .removeItem{
+        height: 20px;
+        width: 30px;
+        
+    
+    }
+
+    .top h1{
+    
+        font-size: 2rem;
+        
+        /* font-weight: bolder;
+        /* background-color: #846542; */
+       /* width: 100%;
+       color: white;
+       margin-left: 10%; */
+       
+    }
+    .pricediv{
+        
+        height: 80px;
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+
+}

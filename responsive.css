@@ -1,0 +1,113 @@
+@media(min-width: 350px) and (max-width: 500px)
+{
+    .responsive{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .login button{
+        width: 4.4em;
+        height: 2.2em;
+    
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .searchbar{
+        display: none;
+    }
+    .name h1{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .card{
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+       
+    }
+
+    .card img{
+        height: 100px;
+    }
+   .jsbutton{
+    width: 50%;
+    height: 2rem;
+    font-size: 10px;
+   }
+   .title{
+    height: 2em;
+    overflow: auto;
+   }
+   .navbar{
+    height: 80px;
+   }
+   .cartdiv{
+    width: 90%;
+   }
+}
+
+
+
+@media(min-width: 501px) and (max-width : 850px)
+{
+    .responsive{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .login button{
+        width: 4.4em;
+        height: 2.2em;
+    
+    }
+    .searchbar{
+        display: none;
+    }
+
+    .name h1{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .card{
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+       
+    }
+    .cartdiv{
+        width: 70%;
+       }
+
+
+}
+
+
+@media(min-width: 851px ) and (max-width: 1250px){
+    .card{
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+       
+    }
+    .cartdiv{
+        width: 50%;
+       }
+    
+}
